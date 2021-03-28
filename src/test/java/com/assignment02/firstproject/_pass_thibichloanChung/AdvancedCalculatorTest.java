@@ -9,7 +9,9 @@ import org.junit.Test;
 public class AdvancedCalculatorTest {
 	AdvancedCalculator acal = new AdvancedCalculator();
 	Random rd = new Random();
-
+	
+	//test square methods
+	
 	@Test
 	public void testSquareZero() {
 		double x = 0;
@@ -26,11 +28,177 @@ public class AdvancedCalculatorTest {
 	}
 	
 	@Test
-	public void testSquarePositiveNum_1() {
-		double x = rd.nextDouble();
+	public void testSquareNegativeNum() {
+		double x = rd.nextDouble() * (-1);
 		double result = x * x;
 		
-		assertTrue(acal.square(x) == result);
+		assertEquals(acal.square(x), result , 0);
 	}
+	
+	// test absolutValue methods
+	
+	@Test
+	public void testAbsValueZero() {
+		double x = 0;
+		
+		assertEquals(acal.absolutValue(x), 0 , 0);
+	}
+	
+	@Test
+	public void testAbsValuePositiveNum() {
+		double x = rd.nextDouble();
+		
+		assertEquals(acal.absolutValue(x), Math.abs(x) , 0);
+	}
+	
+	@Test
+	public void testAbsValueNegativeNum() {
+		double x = rd.nextDouble() * (-1);
+		
+		assertEquals(acal.absolutValue(x), Math.abs(x) , 0);
+	}
+	
+	// test raisedToThePowerOf methods
+	
+	@Test
+	public void testRaisedPowerZero() {
+		double x = rd.nextDouble();
+		
+		assertEquals(acal.raisedToThePowerOf(x, 0) , 1,  0);
+	}
+	
+	@Test
+	public void testRaisedPowerPositiveNum() {
+		double x = rd.nextDouble();
+		double y = rd.nextDouble();
+		double result = Math.pow(x, y);
+		
+		assertEquals(acal.raisedToThePowerOf(x, y) , result,  0);
+	}
+	
+	@Test
+	public void testRaisedPowerNegativeNum() {
+		double x = rd.nextDouble();
+		double y = rd.nextDouble() * (-1);
+		double result = Math.pow(x, y);
+		
+		assertEquals(acal.raisedToThePowerOf(x, y) , result,  0);
+	}
+	
+	@Test
+	public void testRaisedPowerNegativeNum_1() {
+		double x = rd.nextDouble() * (-1);
+		double y = rd.nextDouble() * (-1);
+		double result = Math.pow(x, y);
+		
+		assertEquals(acal.raisedToThePowerOf(x, y) , result,  0);
+	}
+	
+	@Test
+	public void testRaisedPowerNegativeNum_2() {
+		double x = rd.nextDouble() * (-1);
+		double y = rd.nextDouble();
+		double result = Math.pow(x, y);
+		
+		assertEquals(acal.raisedToThePowerOf(x, y) , result,  0);
+	}
+	
+	// test squareRoot methods
+	
+	@Test
+	public void testSqrtZero() {
+		double x = 0;
+		
+		assertEquals(acal.squareRoot(x), 0, 0);
+	}
+	
+	@Test
+	public void testSqrtPositiveNum() {
+		double x = rd.nextDouble();
+		
+		assertEquals(acal.squareRoot(x), Math.sqrt(x), 0);
+	}
+	
+	@Test
+	public void testSqrtNegativeNum() {
+		double x = rd.nextDouble() * (-1);
+		
+		assertEquals(acal.squareRoot(x), Math.sqrt(x), 0);
+	}
+	
+	// test getSign methods
+	
+	@Test
+	public void testSignZero(){
+		double x = 0;
+		
+		assertEquals(acal.getSign(x), 0, 0);
+	}
+	
+	@Test
+	public void testSignPositiveNum(){
+		double x = rd.nextDouble();
+		//double result = Math.signum(x);
+		//System.out.println(result);
+		assertEquals(acal.getSign(x), +1.0, 0);
+	}
+	
+	@Test
+	public void testSignNegativeNum(){
+		double x = rd.nextDouble() * (-1);
+		//double result = Math.signum(x);
+		//System.out.println(result);
+		assertEquals(acal.getSign(x), -1.0, 0);
+	}
+	
+	/*
+	 *  test some methods from BasicCalculator
+	 */
+	
+	@Test
+	public void testAdd(){
+		double x = rd.nextDouble();
+		double y = rd.nextDouble();
+		double result = x + y;
+		assertEquals(acal.addition(x, y), result, 0);
+	}
+	
+	@Test
+	public void testMultiplication(){
+		double x = rd.nextDouble();
+		double y = rd.nextDouble() * (-1);
+		double result = x * y;
+		assertEquals(acal.multiplication(x, y), result, 0);
+	}
+	
+	@Test
+	public void testDivision(){
+		double x = rd.nextDouble();
+		double y = rd.nextDouble() * (-1);
+		double result = x / y;
+		assertEquals(acal.division(x, y), result, 0);
+	}
+	
+	@Test
+	public void testDivisionZero(){
+		double x = rd.nextDouble();
+		double y = 0;
+		
+		assertEquals(acal.division(x, y), 1e10, 0);
+	}
+	
+	@Test
+	public void testSubZero(){
+		double x = rd.nextDouble();
+		double y = 0;
+		
+		assertEquals(acal.subtraction(x, y), x, 0);
+	}
+	
+	
+	
+	
+	
+	
 
 }
