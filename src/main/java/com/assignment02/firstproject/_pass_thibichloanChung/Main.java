@@ -3,8 +3,16 @@ package com.assignment02.firstproject._pass_thibichloanChung;
 public class Main {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
+		BasicCalculator bcal = new BasicCalculator();
+		AdvancedCalculator acal = new AdvancedCalculator();
+		
+		System.out.println(bcal.addition(2.0, 2.0));
+		System.out.println(bcal.division(2.0, 0.0));
+		
+		System.out.println(acal.absolutValue(-2));
+		System.out.println(acal.squareRoot(4.0));
+		
+		System.out.println(acal.multiplication(9.0, 2.0));
 	}
 
 }
