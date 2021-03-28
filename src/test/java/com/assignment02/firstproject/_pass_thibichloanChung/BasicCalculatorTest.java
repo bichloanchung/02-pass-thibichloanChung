@@ -21,24 +21,27 @@ public class BasicCalculatorTest {
 	public void testAddPositiveNbrs() {
 		double x = rd.nextDouble();
 		double y = rd.nextDouble();
+		double result = x + y;
 		
-		assertEquals(bcal.addition(x, y), (x+y) ,0);	
+		assertEquals(bcal.addition(x, y), result ,0);	
 	}
 	
 	@Test
 	public void testAddNegativeNbrs() {
 		double x = rd.nextDouble()* (-1);
 		double y = rd.nextDouble()* (-1);
+		double result = x + y;
 		
-		assertEquals(bcal.addition(x, y), (x+y) ,0);	
+		assertEquals(bcal.addition(x, y), result ,0);	
 	}
 	
 	@Test
 	public void testAddNegPosN() {
 		double x = rd.nextDouble()* (-1);
 		double y = rd.nextDouble();
+		double result = x + y;
 	
-		assertEquals(bcal.addition(x, y), (x+y), 0);	
+		assertEquals(bcal.addition(x, y), result, 0);	
 	}
 	
 	@Test
@@ -51,24 +54,27 @@ public class BasicCalculatorTest {
 	public void testSubPositiveNbrs() {
 		double x = rd.nextDouble();
 		double y = rd.nextDouble();
+		double result = x - y;
 	
-		assertEquals(bcal.subtraction(x, y), (x-y) ,0);	
+		assertEquals(bcal.subtraction(x, y), result ,0);	
 	}
 	
 	@Test
 	public void testSubNegativeNbrs() {
 		double x = rd.nextDouble()* (-1);
 		double y = rd.nextDouble()* (-1);
+		double result = x - y;
 	
-		assertEquals(bcal.subtraction(x, y), (x-y) ,0);	
+		assertEquals(bcal.subtraction(x, y), result ,0);	
 	}
 	
 	@Test
 	public void testSubNegPosN() {
 		double x = rd.nextDouble();
 		double y = rd.nextDouble()* (-1);
+		double result = x - y;
 	
-		assertEquals(bcal.subtraction(x, y), (x-y) ,0);	
+		assertEquals(bcal.subtraction(x, y), result ,0);	
 	}
 	
 	@Test
@@ -82,24 +88,27 @@ public class BasicCalculatorTest {
 	public void testMultiPositiveNbrs() {
 		double x = rd.nextDouble();
 		double y = rd.nextDouble();
+		double result = x * y;
 	
-		assertEquals(bcal.multiplication(x, y), (x*y) ,0);	
+		assertEquals(bcal.multiplication(x, y), result ,0);	
 	}
 	
 	@Test
 	public void testMultiNegativeNbrs() {
 		double x = rd.nextDouble()* (-1);
 		double y = rd.nextDouble()* (-1);
+		double result = x * y;
 	
-		assertEquals(bcal.multiplication(x, y), (x*y), 0);	
+		assertEquals(bcal.multiplication(x, y), result, 0);	
 	}
 	
 	@Test
 	public void testMultiNegPosN() {
 		double x = rd.nextDouble();
 		double y = rd.nextDouble()* (-1);
+		double result = x * y;
 	
-		assertEquals(bcal.multiplication(x, y), (x*y) ,0);	
+		assertEquals(bcal.multiplication(x, y), result ,0);	
 	}
 	
 	@Test
@@ -113,23 +122,26 @@ public class BasicCalculatorTest {
 	public void testDivPositiveNbrs() {
 		double x = rd.nextDouble();
 		double y = rd.nextDouble();
+		double result = x / y;
 	
-		assertEquals(bcal.division(x, y), (x/y), 0);	
+		assertEquals(bcal.division(x, y), result, 0);	
 	}
 	@Test
 	public void testDivNegativNbrs() {
 		double x = rd.nextDouble()* (-1);
 		double y = rd.nextDouble()* (-1);
+		double result = x / y;
 	
-		assertEquals(bcal.division(x, y), (x/y), 0);	
+		assertEquals(bcal.division(x, y), result, 0);	
 	}
 	
 	@Test
 	public void testDivNegPosN() {
 		double x = rd.nextDouble();
 		double y = rd.nextDouble()* (-1);
+		double result = x / y;
 	
-		assertEquals(bcal.division(x, y), (x/y), 0);	
+		assertEquals(bcal.division(x, y), result, 0);	
 	}
 	
 	
