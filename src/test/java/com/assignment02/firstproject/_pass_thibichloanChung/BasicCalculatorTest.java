@@ -9,7 +9,9 @@ import org.junit.Test;
 public class BasicCalculatorTest {
 	BasicCalculator bcal = new BasicCalculator();
 	Random rd = new Random();
-
+	
+	// test addition methods
+	
 	@Test
 	public void testAddZero() {
 		double x = rd.nextDouble();
@@ -44,6 +46,8 @@ public class BasicCalculatorTest {
 		assertEquals(bcal.addition(x, y), result, 0);	
 	}
 	
+	// test subtraction methods
+	
 	@Test
 	public void testSubZero() {
 		double x = rd.nextDouble();
@@ -76,6 +80,8 @@ public class BasicCalculatorTest {
 	
 		assertEquals(bcal.subtraction(x, y), result ,0);	
 	}
+	
+	// test multiplication methods
 	
 	@Test
 	public void testMultiZero() {
@@ -110,6 +116,8 @@ public class BasicCalculatorTest {
 	
 		assertEquals(bcal.multiplication(x, y), result ,0);	
 	}
+	
+	// test division methods
 	
 	@Test
 	public void testDivZero() {
