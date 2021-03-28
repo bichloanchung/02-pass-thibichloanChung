@@ -151,50 +151,6 @@ public class AdvancedCalculatorTest {
 		assertEquals(acal.getSign(x), -1.0, 0);
 	}
 	
-	/*
-	 *  test some methods from BasicCalculator
-	 */
-	
-	@Test
-	public void testAdd(){
-		double x = rd.nextDouble();
-		double y = rd.nextDouble();
-		double result = x + y;
-		assertEquals(acal.addition(x, y), result, 0);
-	}
-	
-	@Test
-	public void testMultiplication(){
-		double x = rd.nextDouble();
-		double y = rd.nextDouble() * (-1);
-		double result = x * y;
-		assertEquals(acal.multiplication(x, y), result, 0);
-	}
-	
-	@Test
-	public void testDivision(){
-		double x = rd.nextDouble();
-		double y = rd.nextDouble() * (-1);
-		double result = x / y;
-		assertEquals(acal.division(x, y), result, 0);
-	}
-	
-	@Test
-	public void testDivisionZero(){
-		double x = rd.nextDouble();
-		double y = 0;
-		
-		assertEquals(acal.division(x, y), 1e10, 0);
-	}
-	
-	@Test
-	public void testSubZero(){
-		double x = rd.nextDouble();
-		double y = 0;
-		
-		assertEquals(acal.subtraction(x, y), x, 0);
-	}
-	
 	
 	
 	
