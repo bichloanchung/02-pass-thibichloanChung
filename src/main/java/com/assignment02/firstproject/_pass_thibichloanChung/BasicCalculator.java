@@ -19,12 +19,13 @@ public class BasicCalculator implements BasicOperations{
 
 	public double division(double firstNumber, double secondNumber) {
 		double result = firstNumber / secondNumber;
+
 		if (Double.isInfinite(result)) {
 			System.out.println("Division by zero?!");
-			return -1000;
-		} else {
-			return result;
+			return 1e10;
 		}
+		
+		return result;
 	}
 	
 
