@@ -48,14 +48,14 @@ public class AdvancedCalculatorTest {
 	public void testAbsValuePositiveNum() {
 		double x = rd.nextDouble();
 		
-		assertEquals(acal.absolutValue(x), Math.abs(x) , 0);
+		assertEquals(acal.absolutValue(x), x , 0);
 	}
 	
 	@Test
 	public void testAbsValueNegativeNum() {
 		double x = rd.nextDouble() * (-1);
 		
-		assertEquals(acal.absolutValue(x), Math.abs(x) , 0);
+		assertEquals(acal.absolutValue(x), -x , 0);
 	}
 	
 	// test raisedToThePowerOf methods
@@ -63,8 +63,16 @@ public class AdvancedCalculatorTest {
 	@Test
 	public void testRaisedPowerZero() {
 		double x = rd.nextDouble();
+		double exp = 0;
+		assertEquals(acal.raisedToThePowerOf(x, exp) , 1,  0);
+	}
+	
+	@Test
+	public void testRaisedPowerZero_1() {
+		double x = 0;
+		double exp = rd.nextDouble();
 		
-		assertEquals(acal.raisedToThePowerOf(x, 0) , 1,  0);
+		assertEquals("Exponent of 0: ", acal.raisedToThePowerOf(x, exp) , 0,  0);
 	}
 	
 	@Test
@@ -89,18 +97,16 @@ public class AdvancedCalculatorTest {
 	public void testRaisedPowerNegativeNum_1() {
 		double x = rd.nextDouble() * (-1);
 		double y = rd.nextDouble() * (-1);
-		double result = Math.pow(x, y);
 		
-		assertEquals(acal.raisedToThePowerOf(x, y) , result,  0);
+		assertEquals(acal.raisedToThePowerOf(x, y) , 1e15,  0);
 	}
 	
 	@Test
 	public void testRaisedPowerNegativeNum_2() {
 		double x = rd.nextDouble() * (-1);
 		double y = rd.nextDouble();
-		double result = Math.pow(x, y);
 		
-		assertEquals(acal.raisedToThePowerOf(x, y) , result,  0);
+		assertEquals(acal.raisedToThePowerOf(x, y) , 1e15,  0);
 	}
 	
 	// test squareRoot methods
@@ -123,7 +129,7 @@ public class AdvancedCalculatorTest {
 	public void testSqrtNegativeNum() {
 		double x = rd.nextDouble() * (-1);
 		
-		assertEquals(acal.squareRoot(x), Math.sqrt(x), 0);
+		assertEquals(acal.squareRoot(x), 1e20, 0);
 	}
 	
 	// test getSign methods

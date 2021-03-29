@@ -14,11 +14,19 @@ public class AdvancedCalculator extends BasicCalculator implements AdvancedOpera
 
 	public double raisedToThePowerOf(double base, double exponent) {
 		double result = Math.pow(base, exponent);
+		if (Double.isNaN(result)) {
+			System.out.println("Do you want to raise the power values of negative number?");
+			return 1e15;
+		}
 		return result;
 	}
 
 	public double squareRoot(double number) {
 		double result = Math.sqrt(number);
+		if (Double.isNaN(result)) {
+			System.out.println("We can not get square root values of negative number!");
+			return 1e20;
+		}
 		return result;
 	}
 
