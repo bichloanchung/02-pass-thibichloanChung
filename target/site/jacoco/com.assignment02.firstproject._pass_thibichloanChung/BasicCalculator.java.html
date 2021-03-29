@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>BasicCalculator.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">02-pass-thibichloanChung</a> &gt; <a href="index.source.html" class="el_package">com.assignment02.firstproject._pass_thibichloanChung</a> &gt; <span class="el_source">BasicCalculator.java</span></div><h1>BasicCalculator.java</h1><pre class="source lang-java linenums">package com.assignment02.firstproject._pass_thibichloanChung;
+
+<span class="fc" id="L3">public class BasicCalculator implements BasicOperations{</span>
+
+	public double addition(double firstNumber, double secondNumber) {
+<span class="fc" id="L6">		double result = firstNumber + secondNumber;</span>
+<span class="fc" id="L7">		return result;</span>
+	}
+
+	public double subtraction(double firstNumber, double secondNumber) {
+<span class="fc" id="L11">		double result = firstNumber - secondNumber;</span>
+<span class="fc" id="L12">		return result;</span>
+	}
+
+	public double multiplication(double firstNumber, double secondNumber) {
+<span class="fc" id="L16">		double result = firstNumber * secondNumber;</span>
+<span class="fc" id="L17">		return result;</span>
+	}
+
+	public double division(double firstNumber, double secondNumber) {
+<span class="fc" id="L21">		double result = firstNumber / secondNumber;</span>
+
+<span class="fc bfc" id="L23" title="All 2 branches covered.">		if (Double.isInfinite(result)) {</span>
+<span class="fc" id="L24">			System.out.println(&quot;Division by zero?!&quot;);</span>
+<span class="fc" id="L25">			return 1e10;</span>
+		}
+		
+<span class="fc" id="L28">		return result;</span>
+	}
+	
+
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.eclemma.org/jacoco">JaCoCo</a> 0.7.7.201606060606</span></div></body></html>

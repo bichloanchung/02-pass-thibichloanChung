@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="34" passed="34">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Surefire suite" duration-ms="274" started-at="2021-03-29T15:18:54Z" finished-at="2021-03-29T15:18:54Z">
+    <groups>
+    </groups>
+    <test name="Surefire test" duration-ms="274" started-at="2021-03-29T15:18:54Z" finished-at="2021-03-29T15:18:54Z">
+      <class name="com.assignment02.firstproject._pass_thibichloanChung.AdvancedCalculatorTest">
+        <test-method status="PASS" signature="testAbsValuePositiveNum()[pri:0, instance:testAbsValuePositiveNum(com.assignment02.firstproject._pass_thibichloanChung.AdvancedCalculatorTest)]" name="testAbsValuePositiveNum" duration-ms="6" started-at="2021-03-29T17:18:54Z" finished-at="2021-03-29T17:18:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAbsValuePositiveNum -->
+        <test-method status="PASS" signature="testSquarePositiveNum()[pri:0, instance:testSquarePositiveNum(com.assignment02.firstproject._pass_thibichloanChung.AdvancedCalculatorTest)]" name="testSquarePositiveNum" duration-ms="0" started-at="2021-03-29T17:18:54Z" finished-at="2021-03-29T17:18:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSquarePositiveNum -->
+        <test-method status="PASS" signature="testRaisedPowerNegativeNum()[pri:0, instance:testRaisedPowerNegativeNum(com.assignment02.firstproject._pass_thibichloanChung.AdvancedCalculatorTest)]" name="testRaisedPowerNegativeNum" duration-ms="0" started-at="2021-03-29T17:18:54Z" finished-at="2021-03-29T17:18:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRaisedPowerNegativeNum -->
+        <test-method status="PASS" signature="testSignPositiveNum()[pri:0, instance:testSignPositiveNum(com.assignment02.firstproject._pass_thibichloanChung.AdvancedCalculatorTest)]" name="testSignPositiveNum" duration-ms="0" started-at="2021-03-29T17:18:54Z" finished-at="2021-03-29T17:18:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSignPositiveNum -->
+        <test-method status="PASS" signature="testAbsValueNegativeNum()[pri:0, instance:testAbsValueNegativeNum(com.assignment02.firstproject._pass_thibichloanChung.AdvancedCalculatorTest)]" name="testAbsValueNegativeNum" duration-ms="0" started-at="2021-03-29T17:18:54Z" finished-at="2021-03-29T17:18:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAbsValueNegativeNum -->
+        <test-method status="PASS" signature="testSquareNegativeNum()[pri:0, instance:testSquareNegativeNum(com.assignment02.firstproject._pass_thibichloanChung.AdvancedCalculatorTest)]" name="testSquareNegativeNum" duration-ms="1" started-at="2021-03-29T17:18:54Z" finished-at="2021-03-29T17:18:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSquareNegativeNum -->
+        <test-method status="PASS" signature="testRaisedPowerZero()[pri:0, instance:testRaisedPowerZero(com.assignment02.firstproject._pass_thibichloanChung.AdvancedCalculatorTest)]" name="testRaisedPowerZero" duration-ms="0" started-at="2021-03-29T17:18:54Z" finished-at="2021-03-29T17:18:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRaisedPowerZero -->
+        <test-method status="PASS" signature="testSignNegativeNum()[pri:0, instance:testSignNegativeNum(com.assignment02.firstproject._pass_thibichloanChung.AdvancedCalculatorTest)]" name="testSignNegativeNum" duration-ms="0" started-at="2021-03-29T17:18:54Z" finished-at="2021-03-29T17:18:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSignNegativeNum -->
+        <test-method status="PASS" signature="testRaisedPowerZero_1()[pri:0, instance:testRaisedPowerZero_1(com.assignment02.firstproject._pass_thibichloanChung.AdvancedCalculatorTest)]" name="testRaisedPowerZero_1" duration-ms="0" started-at="2021-03-29T17:18:54Z" finished-at="2021-03-29T17:18:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRaisedPowerZero_1 -->
+        <test-method status="PASS" signature="testSqrtPositiveNum()[pri:0, instance:testSqrtPositiveNum(com.assignment02.firstproject._pass_thibichloanChung.AdvancedCalculatorTest)]" name="testSqrtPositiveNum" duration-ms="0" started-at="2021-03-29T17:18:54Z" finished-at="2021-03-29T17:18:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSqrtPositiveNum -->
+        <test-method status="PASS" signature="testSqrtZero()[pri:0, instance:testSqrtZero(com.assignment02.firstproject._pass_thibichloanChung.AdvancedCalculatorTest)]" name="testSqrtZero" duration-ms="0" started-at="2021-03-29T17:18:54Z" finished-at="2021-03-29T17:18:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSqrtZero -->
+        <test-method status="PASS" signature="testSqrtNegativeNum()[pri:0, instance:testSqrtNegativeNum(com.assignment02.firstproject._pass_thibichloanChung.AdvancedCalculatorTest)]" name="testSqrtNegativeNum" duration-ms="0" started-at="2021-03-29T17:18:54Z" finished-at="2021-03-29T17:18:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSqrtNegativeNum -->
+        <test-method status="PASS" signature="testAbsValueZero()[pri:0, instance:testAbsValueZero(com.assignment02.firstproject._pass_thibichloanChung.AdvancedCalculatorTest)]" name="testAbsValueZero" duration-ms="0" started-at="2021-03-29T17:18:54Z" finished-at="2021-03-29T17:18:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAbsValueZero -->
+        <test-method status="PASS" signature="testRaisedPowerNegativeNum_1()[pri:0, instance:testRaisedPowerNegativeNum_1(com.assignment02.firstproject._pass_thibichloanChung.AdvancedCalculatorTest)]" name="testRaisedPowerNegativeNum_1" duration-ms="0" started-at="2021-03-29T17:18:54Z" finished-at="2021-03-29T17:18:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRaisedPowerNegativeNum_1 -->
+        <test-method status="PASS" signature="testRaisedPowerNegativeNum_2()[pri:0, instance:testRaisedPowerNegativeNum_2(com.assignment02.firstproject._pass_thibichloanChung.AdvancedCalculatorTest)]" name="testRaisedPowerNegativeNum_2" duration-ms="1" started-at="2021-03-29T17:18:54Z" finished-at="2021-03-29T17:18:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRaisedPowerNegativeNum_2 -->
+        <test-method status="PASS" signature="testSignZero()[pri:0, instance:testSignZero(com.assignment02.firstproject._pass_thibichloanChung.AdvancedCalculatorTest)]" name="testSignZero" duration-ms="0" started-at="2021-03-29T17:18:54Z" finished-at="2021-03-29T17:18:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSignZero -->
+        <test-method status="PASS" signature="testSquareZero()[pri:0, instance:testSquareZero(com.assignment02.firstproject._pass_thibichloanChung.AdvancedCalculatorTest)]" name="testSquareZero" duration-ms="0" started-at="2021-03-29T17:18:54Z" finished-at="2021-03-29T17:18:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSquareZero -->
+        <test-method status="PASS" signature="testRaisedPowerPositiveNum()[pri:0, instance:testRaisedPowerPositiveNum(com.assignment02.firstproject._pass_thibichloanChung.AdvancedCalculatorTest)]" name="testRaisedPowerPositiveNum" duration-ms="0" started-at="2021-03-29T17:18:54Z" finished-at="2021-03-29T17:18:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRaisedPowerPositiveNum -->
+      </class> <!-- com.assignment02.firstproject._pass_thibichloanChung.AdvancedCalculatorTest -->
+      <class name="com.assignment02.firstproject._pass_thibichloanChung.BasicCalculatorTest">
+        <test-method status="PASS" signature="testAddNegativeNbrs()[pri:0, instance:testAddNegativeNbrs(com.assignment02.firstproject._pass_thibichloanChung.BasicCalculatorTest)]" name="testAddNegativeNbrs" duration-ms="0" started-at="2021-03-29T17:18:54Z" finished-at="2021-03-29T17:18:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddNegativeNbrs -->
+        <test-method status="PASS" signature="testAddZero()[pri:0, instance:testAddZero(com.assignment02.firstproject._pass_thibichloanChung.BasicCalculatorTest)]" name="testAddZero" duration-ms="0" started-at="2021-03-29T17:18:54Z" finished-at="2021-03-29T17:18:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddZero -->
+        <test-method status="PASS" signature="testAddNegPosN()[pri:0, instance:testAddNegPosN(com.assignment02.firstproject._pass_thibichloanChung.BasicCalculatorTest)]" name="testAddNegPosN" duration-ms="0" started-at="2021-03-29T17:18:54Z" finished-at="2021-03-29T17:18:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddNegPosN -->
+        <test-method status="PASS" signature="testDivPositiveNbrs()[pri:0, instance:testDivPositiveNbrs(com.assignment02.firstproject._pass_thibichloanChung.BasicCalculatorTest)]" name="testDivPositiveNbrs" duration-ms="0" started-at="2021-03-29T17:18:54Z" finished-at="2021-03-29T17:18:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDivPositiveNbrs -->
+        <test-method status="PASS" signature="testDivNegativNbrs()[pri:0, instance:testDivNegativNbrs(com.assignment02.firstproject._pass_thibichloanChung.BasicCalculatorTest)]" name="testDivNegativNbrs" duration-ms="0" started-at="2021-03-29T17:18:54Z" finished-at="2021-03-29T17:18:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDivNegativNbrs -->
+        <test-method status="PASS" signature="testDivNegPosN()[pri:0, instance:testDivNegPosN(com.assignment02.firstproject._pass_thibichloanChung.BasicCalculatorTest)]" name="testDivNegPosN" duration-ms="1" started-at="2021-03-29T17:18:54Z" finished-at="2021-03-29T17:18:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDivNegPosN -->
+        <test-method status="PASS" signature="testMultiZero()[pri:0, instance:testMultiZero(com.assignment02.firstproject._pass_thibichloanChung.BasicCalculatorTest)]" name="testMultiZero" duration-ms="1" started-at="2021-03-29T17:18:54Z" finished-at="2021-03-29T17:18:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMultiZero -->
+        <test-method status="PASS" signature="testSubNegPosN()[pri:0, instance:testSubNegPosN(com.assignment02.firstproject._pass_thibichloanChung.BasicCalculatorTest)]" name="testSubNegPosN" duration-ms="1" started-at="2021-03-29T17:18:54Z" finished-at="2021-03-29T17:18:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSubNegPosN -->
+        <test-method status="PASS" signature="testSubPositiveNbrs()[pri:0, instance:testSubPositiveNbrs(com.assignment02.firstproject._pass_thibichloanChung.BasicCalculatorTest)]" name="testSubPositiveNbrs" duration-ms="0" started-at="2021-03-29T17:18:54Z" finished-at="2021-03-29T17:18:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSubPositiveNbrs -->
+        <test-method status="PASS" signature="testSubNegativeNbrs()[pri:0, instance:testSubNegativeNbrs(com.assignment02.firstproject._pass_thibichloanChung.BasicCalculatorTest)]" name="testSubNegativeNbrs" duration-ms="0" started-at="2021-03-29T17:18:54Z" finished-at="2021-03-29T17:18:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSubNegativeNbrs -->
+        <test-method status="PASS" signature="testMultiPositiveNbrs()[pri:0, instance:testMultiPositiveNbrs(com.assignment02.firstproject._pass_thibichloanChung.BasicCalculatorTest)]" name="testMultiPositiveNbrs" duration-ms="1" started-at="2021-03-29T17:18:54Z" finished-at="2021-03-29T17:18:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMultiPositiveNbrs -->
+        <test-method status="PASS" signature="testMultiNegativeNbrs()[pri:0, instance:testMultiNegativeNbrs(com.assignment02.firstproject._pass_thibichloanChung.BasicCalculatorTest)]" name="testMultiNegativeNbrs" duration-ms="1" started-at="2021-03-29T17:18:54Z" finished-at="2021-03-29T17:18:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMultiNegativeNbrs -->
+        <test-method status="PASS" signature="testMultiNegPosN()[pri:0, instance:testMultiNegPosN(com.assignment02.firstproject._pass_thibichloanChung.BasicCalculatorTest)]" name="testMultiNegPosN" duration-ms="0" started-at="2021-03-29T17:18:54Z" finished-at="2021-03-29T17:18:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMultiNegPosN -->
+        <test-method status="PASS" signature="testDivZero()[pri:0, instance:testDivZero(com.assignment02.firstproject._pass_thibichloanChung.BasicCalculatorTest)]" name="testDivZero" duration-ms="1" started-at="2021-03-29T17:18:54Z" finished-at="2021-03-29T17:18:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDivZero -->
+        <test-method status="PASS" signature="testSubZero()[pri:0, instance:testSubZero(com.assignment02.firstproject._pass_thibichloanChung.BasicCalculatorTest)]" name="testSubZero" duration-ms="3" started-at="2021-03-29T17:18:54Z" finished-at="2021-03-29T17:18:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSubZero -->
+        <test-method status="PASS" signature="testAddPositiveNbrs()[pri:0, instance:testAddPositiveNbrs(com.assignment02.firstproject._pass_thibichloanChung.BasicCalculatorTest)]" name="testAddPositiveNbrs" duration-ms="8" started-at="2021-03-29T17:18:54Z" finished-at="2021-03-29T17:18:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddPositiveNbrs -->
+      </class> <!-- com.assignment02.firstproject._pass_thibichloanChung.BasicCalculatorTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

@@ -1,0 +1,249 @@
+<html>
+<head>
+<title>TestNG:  Surefire test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Surefire test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>34/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Mon Mar 29 17:18:54 CEST 2021</td>
+</tr>
+<tr><td>Total time:</td><td>0 seconds (274 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.assignment02.firstproject._pass_thibichloanChung.AdvancedCalculatorTest.testAbsValueNegativeNum()'><b>testAbsValueNegativeNum</b><br>Test class: com.assignment02.firstproject._pass_thibichloanChung.AdvancedCalculatorTest</td>
+<td></td>
+<td>0</td>
+<td>testAbsValueNegativeNum(com.assignment02.firstproject._pass_thibichloanChung.AdvancedCalculatorTest)</td></tr>
+<tr>
+<td title='com.assignment02.firstproject._pass_thibichloanChung.AdvancedCalculatorTest.testAbsValuePositiveNum()'><b>testAbsValuePositiveNum</b><br>Test class: com.assignment02.firstproject._pass_thibichloanChung.AdvancedCalculatorTest</td>
+<td></td>
+<td>0</td>
+<td>testAbsValuePositiveNum(com.assignment02.firstproject._pass_thibichloanChung.AdvancedCalculatorTest)</td></tr>
+<tr>
+<td title='com.assignment02.firstproject._pass_thibichloanChung.AdvancedCalculatorTest.testAbsValueZero()'><b>testAbsValueZero</b><br>Test class: com.assignment02.firstproject._pass_thibichloanChung.AdvancedCalculatorTest</td>
+<td></td>
+<td>0</td>
+<td>testAbsValueZero(com.assignment02.firstproject._pass_thibichloanChung.AdvancedCalculatorTest)</td></tr>
+<tr>
+<td title='com.assignment02.firstproject._pass_thibichloanChung.BasicCalculatorTest.testAddNegPosN()'><b>testAddNegPosN</b><br>Test class: com.assignment02.firstproject._pass_thibichloanChung.BasicCalculatorTest</td>
+<td></td>
+<td>0</td>
+<td>testAddNegPosN(com.assignment02.firstproject._pass_thibichloanChung.BasicCalculatorTest)</td></tr>
+<tr>
+<td title='com.assignment02.firstproject._pass_thibichloanChung.BasicCalculatorTest.testAddNegativeNbrs()'><b>testAddNegativeNbrs</b><br>Test class: com.assignment02.firstproject._pass_thibichloanChung.BasicCalculatorTest</td>
+<td></td>
+<td>0</td>
+<td>testAddNegativeNbrs(com.assignment02.firstproject._pass_thibichloanChung.BasicCalculatorTest)</td></tr>
+<tr>
+<td title='com.assignment02.firstproject._pass_thibichloanChung.BasicCalculatorTest.testAddPositiveNbrs()'><b>testAddPositiveNbrs</b><br>Test class: com.assignment02.firstproject._pass_thibichloanChung.BasicCalculatorTest</td>
+<td></td>
+<td>0</td>
+<td>testAddPositiveNbrs(com.assignment02.firstproject._pass_thibichloanChung.BasicCalculatorTest)</td></tr>
+<tr>
+<td title='com.assignment02.firstproject._pass_thibichloanChung.BasicCalculatorTest.testAddZero()'><b>testAddZero</b><br>Test class: com.assignment02.firstproject._pass_thibichloanChung.BasicCalculatorTest</td>
+<td></td>
+<td>0</td>
+<td>testAddZero(com.assignment02.firstproject._pass_thibichloanChung.BasicCalculatorTest)</td></tr>
+<tr>
+<td title='com.assignment02.firstproject._pass_thibichloanChung.BasicCalculatorTest.testDivNegPosN()'><b>testDivNegPosN</b><br>Test class: com.assignment02.firstproject._pass_thibichloanChung.BasicCalculatorTest</td>
+<td></td>
+<td>0</td>
+<td>testDivNegPosN(com.assignment02.firstproject._pass_thibichloanChung.BasicCalculatorTest)</td></tr>
+<tr>
+<td title='com.assignment02.firstproject._pass_thibichloanChung.BasicCalculatorTest.testDivNegativNbrs()'><b>testDivNegativNbrs</b><br>Test class: com.assignment02.firstproject._pass_thibichloanChung.BasicCalculatorTest</td>
+<td></td>
+<td>0</td>
+<td>testDivNegativNbrs(com.assignment02.firstproject._pass_thibichloanChung.BasicCalculatorTest)</td></tr>
+<tr>
+<td title='com.assignment02.firstproject._pass_thibichloanChung.BasicCalculatorTest.testDivPositiveNbrs()'><b>testDivPositiveNbrs</b><br>Test class: com.assignment02.firstproject._pass_thibichloanChung.BasicCalculatorTest</td>
+<td></td>
+<td>0</td>
+<td>testDivPositiveNbrs(com.assignment02.firstproject._pass_thibichloanChung.BasicCalculatorTest)</td></tr>
+<tr>
+<td title='com.assignment02.firstproject._pass_thibichloanChung.BasicCalculatorTest.testDivZero()'><b>testDivZero</b><br>Test class: com.assignment02.firstproject._pass_thibichloanChung.BasicCalculatorTest</td>
+<td></td>
+<td>0</td>
+<td>testDivZero(com.assignment02.firstproject._pass_thibichloanChung.BasicCalculatorTest)</td></tr>
+<tr>
+<td title='com.assignment02.firstproject._pass_thibichloanChung.BasicCalculatorTest.testMultiNegPosN()'><b>testMultiNegPosN</b><br>Test class: com.assignment02.firstproject._pass_thibichloanChung.BasicCalculatorTest</td>
+<td></td>
+<td>0</td>
+<td>testMultiNegPosN(com.assignment02.firstproject._pass_thibichloanChung.BasicCalculatorTest)</td></tr>
+<tr>
+<td title='com.assignment02.firstproject._pass_thibichloanChung.BasicCalculatorTest.testMultiNegativeNbrs()'><b>testMultiNegativeNbrs</b><br>Test class: com.assignment02.firstproject._pass_thibichloanChung.BasicCalculatorTest</td>
+<td></td>
+<td>0</td>
+<td>testMultiNegativeNbrs(com.assignment02.firstproject._pass_thibichloanChung.BasicCalculatorTest)</td></tr>
+<tr>
+<td title='com.assignment02.firstproject._pass_thibichloanChung.BasicCalculatorTest.testMultiPositiveNbrs()'><b>testMultiPositiveNbrs</b><br>Test class: com.assignment02.firstproject._pass_thibichloanChung.BasicCalculatorTest</td>
+<td></td>
+<td>0</td>
+<td>testMultiPositiveNbrs(com.assignment02.firstproject._pass_thibichloanChung.BasicCalculatorTest)</td></tr>
+<tr>
+<td title='com.assignment02.firstproject._pass_thibichloanChung.BasicCalculatorTest.testMultiZero()'><b>testMultiZero</b><br>Test class: com.assignment02.firstproject._pass_thibichloanChung.BasicCalculatorTest</td>
+<td></td>
+<td>0</td>
+<td>testMultiZero(com.assignment02.firstproject._pass_thibichloanChung.BasicCalculatorTest)</td></tr>
+<tr>
+<td title='com.assignment02.firstproject._pass_thibichloanChung.AdvancedCalculatorTest.testRaisedPowerNegativeNum()'><b>testRaisedPowerNegativeNum</b><br>Test class: com.assignment02.firstproject._pass_thibichloanChung.AdvancedCalculatorTest</td>
+<td></td>
+<td>0</td>
+<td>testRaisedPowerNegativeNum(com.assignment02.firstproject._pass_thibichloanChung.AdvancedCalculatorTest)</td></tr>
+<tr>
+<td title='com.assignment02.firstproject._pass_thibichloanChung.AdvancedCalculatorTest.testRaisedPowerNegativeNum_1()'><b>testRaisedPowerNegativeNum_1</b><br>Test class: com.assignment02.firstproject._pass_thibichloanChung.AdvancedCalculatorTest</td>
+<td></td>
+<td>0</td>
+<td>testRaisedPowerNegativeNum_1(com.assignment02.firstproject._pass_thibichloanChung.AdvancedCalculatorTest)</td></tr>
+<tr>
+<td title='com.assignment02.firstproject._pass_thibichloanChung.AdvancedCalculatorTest.testRaisedPowerNegativeNum_2()'><b>testRaisedPowerNegativeNum_2</b><br>Test class: com.assignment02.firstproject._pass_thibichloanChung.AdvancedCalculatorTest</td>
+<td></td>
+<td>0</td>
+<td>testRaisedPowerNegativeNum_2(com.assignment02.firstproject._pass_thibichloanChung.AdvancedCalculatorTest)</td></tr>
+<tr>
+<td title='com.assignment02.firstproject._pass_thibichloanChung.AdvancedCalculatorTest.testRaisedPowerPositiveNum()'><b>testRaisedPowerPositiveNum</b><br>Test class: com.assignment02.firstproject._pass_thibichloanChung.AdvancedCalculatorTest</td>
+<td></td>
+<td>0</td>
+<td>testRaisedPowerPositiveNum(com.assignment02.firstproject._pass_thibichloanChung.AdvancedCalculatorTest)</td></tr>
+<tr>
+<td title='com.assignment02.firstproject._pass_thibichloanChung.AdvancedCalculatorTest.testRaisedPowerZero()'><b>testRaisedPowerZero</b><br>Test class: com.assignment02.firstproject._pass_thibichloanChung.AdvancedCalculatorTest</td>
+<td></td>
+<td>0</td>
+<td>testRaisedPowerZero(com.assignment02.firstproject._pass_thibichloanChung.AdvancedCalculatorTest)</td></tr>
+<tr>
+<td title='com.assignment02.firstproject._pass_thibichloanChung.AdvancedCalculatorTest.testRaisedPowerZero_1()'><b>testRaisedPowerZero_1</b><br>Test class: com.assignment02.firstproject._pass_thibichloanChung.AdvancedCalculatorTest</td>
+<td></td>
+<td>0</td>
+<td>testRaisedPowerZero_1(com.assignment02.firstproject._pass_thibichloanChung.AdvancedCalculatorTest)</td></tr>
+<tr>
+<td title='com.assignment02.firstproject._pass_thibichloanChung.AdvancedCalculatorTest.testSignNegativeNum()'><b>testSignNegativeNum</b><br>Test class: com.assignment02.firstproject._pass_thibichloanChung.AdvancedCalculatorTest</td>
+<td></td>
+<td>0</td>
+<td>testSignNegativeNum(com.assignment02.firstproject._pass_thibichloanChung.AdvancedCalculatorTest)</td></tr>
+<tr>
+<td title='com.assignment02.firstproject._pass_thibichloanChung.AdvancedCalculatorTest.testSignPositiveNum()'><b>testSignPositiveNum</b><br>Test class: com.assignment02.firstproject._pass_thibichloanChung.AdvancedCalculatorTest</td>
+<td></td>
+<td>0</td>
+<td>testSignPositiveNum(com.assignment02.firstproject._pass_thibichloanChung.AdvancedCalculatorTest)</td></tr>
+<tr>
+<td title='com.assignment02.firstproject._pass_thibichloanChung.AdvancedCalculatorTest.testSignZero()'><b>testSignZero</b><br>Test class: com.assignment02.firstproject._pass_thibichloanChung.AdvancedCalculatorTest</td>
+<td></td>
+<td>0</td>
+<td>testSignZero(com.assignment02.firstproject._pass_thibichloanChung.AdvancedCalculatorTest)</td></tr>
+<tr>
+<td title='com.assignment02.firstproject._pass_thibichloanChung.AdvancedCalculatorTest.testSqrtNegativeNum()'><b>testSqrtNegativeNum</b><br>Test class: com.assignment02.firstproject._pass_thibichloanChung.AdvancedCalculatorTest</td>
+<td></td>
+<td>0</td>
+<td>testSqrtNegativeNum(com.assignment02.firstproject._pass_thibichloanChung.AdvancedCalculatorTest)</td></tr>
+<tr>
+<td title='com.assignment02.firstproject._pass_thibichloanChung.AdvancedCalculatorTest.testSqrtPositiveNum()'><b>testSqrtPositiveNum</b><br>Test class: com.assignment02.firstproject._pass_thibichloanChung.AdvancedCalculatorTest</td>
+<td></td>
+<td>0</td>
+<td>testSqrtPositiveNum(com.assignment02.firstproject._pass_thibichloanChung.AdvancedCalculatorTest)</td></tr>
+<tr>
+<td title='com.assignment02.firstproject._pass_thibichloanChung.AdvancedCalculatorTest.testSqrtZero()'><b>testSqrtZero</b><br>Test class: com.assignment02.firstproject._pass_thibichloanChung.AdvancedCalculatorTest</td>
+<td></td>
+<td>0</td>
+<td>testSqrtZero(com.assignment02.firstproject._pass_thibichloanChung.AdvancedCalculatorTest)</td></tr>
+<tr>
+<td title='com.assignment02.firstproject._pass_thibichloanChung.AdvancedCalculatorTest.testSquareNegativeNum()'><b>testSquareNegativeNum</b><br>Test class: com.assignment02.firstproject._pass_thibichloanChung.AdvancedCalculatorTest</td>
+<td></td>
+<td>0</td>
+<td>testSquareNegativeNum(com.assignment02.firstproject._pass_thibichloanChung.AdvancedCalculatorTest)</td></tr>
+<tr>
+<td title='com.assignment02.firstproject._pass_thibichloanChung.AdvancedCalculatorTest.testSquarePositiveNum()'><b>testSquarePositiveNum</b><br>Test class: com.assignment02.firstproject._pass_thibichloanChung.AdvancedCalculatorTest</td>
+<td></td>
+<td>0</td>
+<td>testSquarePositiveNum(com.assignment02.firstproject._pass_thibichloanChung.AdvancedCalculatorTest)</td></tr>
+<tr>
+<td title='com.assignment02.firstproject._pass_thibichloanChung.AdvancedCalculatorTest.testSquareZero()'><b>testSquareZero</b><br>Test class: com.assignment02.firstproject._pass_thibichloanChung.AdvancedCalculatorTest</td>
+<td></td>
+<td>0</td>
+<td>testSquareZero(com.assignment02.firstproject._pass_thibichloanChung.AdvancedCalculatorTest)</td></tr>
+<tr>
+<td title='com.assignment02.firstproject._pass_thibichloanChung.BasicCalculatorTest.testSubNegPosN()'><b>testSubNegPosN</b><br>Test class: com.assignment02.firstproject._pass_thibichloanChung.BasicCalculatorTest</td>
+<td></td>
+<td>0</td>
+<td>testSubNegPosN(com.assignment02.firstproject._pass_thibichloanChung.BasicCalculatorTest)</td></tr>
+<tr>
+<td title='com.assignment02.firstproject._pass_thibichloanChung.BasicCalculatorTest.testSubNegativeNbrs()'><b>testSubNegativeNbrs</b><br>Test class: com.assignment02.firstproject._pass_thibichloanChung.BasicCalculatorTest</td>
+<td></td>
+<td>0</td>
+<td>testSubNegativeNbrs(com.assignment02.firstproject._pass_thibichloanChung.BasicCalculatorTest)</td></tr>
+<tr>
+<td title='com.assignment02.firstproject._pass_thibichloanChung.BasicCalculatorTest.testSubPositiveNbrs()'><b>testSubPositiveNbrs</b><br>Test class: com.assignment02.firstproject._pass_thibichloanChung.BasicCalculatorTest</td>
+<td></td>
+<td>0</td>
+<td>testSubPositiveNbrs(com.assignment02.firstproject._pass_thibichloanChung.BasicCalculatorTest)</td></tr>
+<tr>
+<td title='com.assignment02.firstproject._pass_thibichloanChung.BasicCalculatorTest.testSubZero()'><b>testSubZero</b><br>Test class: com.assignment02.firstproject._pass_thibichloanChung.BasicCalculatorTest</td>
+<td></td>
+<td>0</td>
+<td>testSubZero(com.assignment02.firstproject._pass_thibichloanChung.BasicCalculatorTest)</td></tr>
+</table><p>
+</body>
+</html>

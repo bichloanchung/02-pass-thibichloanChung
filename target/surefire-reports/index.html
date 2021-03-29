@@ -1,0 +1,902 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Surefire_suite">
+              <span class="suite-name border-passed">Surefire suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Surefire_suite">
+                    <span>[unset file name]</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Surefire_suite">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Surefire_suite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Surefire_suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Surefire_suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Surefire_suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Surefire_suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">34 methods,   34 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Surefire_suite" class="hide-methods passed suite-Surefire_suite"> (hide)</a> <!-- hide-methods passed suite-Surefire_suite -->
+                      <a href="#" panel-name="suite-Surefire_suite" class="show-methods passed suite-Surefire_suite"> (show)</a> <!-- show-methods passed suite-Surefire_suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Surefire_suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="com.assignment02.firstproject._pass_thibichloanChung.AdvancedCalculatorTest" hash-for-method="testAbsValueNegativeNum">testAbsValueNegativeNum</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="com.assignment02.firstproject._pass_thibichloanChung.AdvancedCalculatorTest" hash-for-method="testAbsValuePositiveNum">testAbsValuePositiveNum</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="com.assignment02.firstproject._pass_thibichloanChung.AdvancedCalculatorTest" hash-for-method="testAbsValueZero">testAbsValueZero</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="com.assignment02.firstproject._pass_thibichloanChung.BasicCalculatorTest" hash-for-method="testAddNegPosN">testAddNegPosN</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="com.assignment02.firstproject._pass_thibichloanChung.BasicCalculatorTest" hash-for-method="testAddNegativeNbrs">testAddNegativeNbrs</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="com.assignment02.firstproject._pass_thibichloanChung.BasicCalculatorTest" hash-for-method="testAddPositiveNbrs">testAddPositiveNbrs</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="com.assignment02.firstproject._pass_thibichloanChung.BasicCalculatorTest" hash-for-method="testAddZero">testAddZero</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="com.assignment02.firstproject._pass_thibichloanChung.BasicCalculatorTest" hash-for-method="testDivNegPosN">testDivNegPosN</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="com.assignment02.firstproject._pass_thibichloanChung.BasicCalculatorTest" hash-for-method="testDivNegativNbrs">testDivNegativNbrs</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="com.assignment02.firstproject._pass_thibichloanChung.BasicCalculatorTest" hash-for-method="testDivPositiveNbrs">testDivPositiveNbrs</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="com.assignment02.firstproject._pass_thibichloanChung.BasicCalculatorTest" hash-for-method="testDivZero">testDivZero</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="com.assignment02.firstproject._pass_thibichloanChung.BasicCalculatorTest" hash-for-method="testMultiNegPosN">testMultiNegPosN</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="com.assignment02.firstproject._pass_thibichloanChung.BasicCalculatorTest" hash-for-method="testMultiNegativeNbrs">testMultiNegativeNbrs</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="com.assignment02.firstproject._pass_thibichloanChung.BasicCalculatorTest" hash-for-method="testMultiPositiveNbrs">testMultiPositiveNbrs</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="com.assignment02.firstproject._pass_thibichloanChung.BasicCalculatorTest" hash-for-method="testMultiZero">testMultiZero</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="com.assignment02.firstproject._pass_thibichloanChung.AdvancedCalculatorTest" hash-for-method="testRaisedPowerNegativeNum">testRaisedPowerNegativeNum</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="com.assignment02.firstproject._pass_thibichloanChung.AdvancedCalculatorTest" hash-for-method="testRaisedPowerNegativeNum_1">testRaisedPowerNegativeNum_1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="com.assignment02.firstproject._pass_thibichloanChung.AdvancedCalculatorTest" hash-for-method="testRaisedPowerNegativeNum_2">testRaisedPowerNegativeNum_2</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="com.assignment02.firstproject._pass_thibichloanChung.AdvancedCalculatorTest" hash-for-method="testRaisedPowerPositiveNum">testRaisedPowerPositiveNum</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="com.assignment02.firstproject._pass_thibichloanChung.AdvancedCalculatorTest" hash-for-method="testRaisedPowerZero">testRaisedPowerZero</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="com.assignment02.firstproject._pass_thibichloanChung.AdvancedCalculatorTest" hash-for-method="testRaisedPowerZero_1">testRaisedPowerZero_1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="com.assignment02.firstproject._pass_thibichloanChung.AdvancedCalculatorTest" hash-for-method="testSignNegativeNum">testSignNegativeNum</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="com.assignment02.firstproject._pass_thibichloanChung.AdvancedCalculatorTest" hash-for-method="testSignPositiveNum">testSignPositiveNum</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="com.assignment02.firstproject._pass_thibichloanChung.AdvancedCalculatorTest" hash-for-method="testSignZero">testSignZero</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="com.assignment02.firstproject._pass_thibichloanChung.AdvancedCalculatorTest" hash-for-method="testSqrtNegativeNum">testSqrtNegativeNum</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="com.assignment02.firstproject._pass_thibichloanChung.AdvancedCalculatorTest" hash-for-method="testSqrtPositiveNum">testSqrtPositiveNum</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="com.assignment02.firstproject._pass_thibichloanChung.AdvancedCalculatorTest" hash-for-method="testSqrtZero">testSqrtZero</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="com.assignment02.firstproject._pass_thibichloanChung.AdvancedCalculatorTest" hash-for-method="testSquareNegativeNum">testSquareNegativeNum</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="com.assignment02.firstproject._pass_thibichloanChung.AdvancedCalculatorTest" hash-for-method="testSquarePositiveNum">testSquarePositiveNum</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="com.assignment02.firstproject._pass_thibichloanChung.AdvancedCalculatorTest" hash-for-method="testSquareZero">testSquareZero</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="com.assignment02.firstproject._pass_thibichloanChung.BasicCalculatorTest" hash-for-method="testSubNegPosN">testSubNegPosN</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="com.assignment02.firstproject._pass_thibichloanChung.BasicCalculatorTest" hash-for-method="testSubNegativeNbrs">testSubNegativeNbrs</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="com.assignment02.firstproject._pass_thibichloanChung.BasicCalculatorTest" hash-for-method="testSubPositiveNbrs">testSubPositiveNbrs</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="com.assignment02.firstproject._pass_thibichloanChung.BasicCalculatorTest" hash-for-method="testSubZero">testSubZero</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Surefire_suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Surefire_suite" class="panel Surefire_suite">
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.assignment02.firstproject._pass_thibichloanChung.AdvancedCalculatorTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testAbsValueNegativeNum">
+                  </a> <!-- testAbsValueNegativeNum -->
+                  <span class="method-name">testAbsValueNegativeNum</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testAbsValuePositiveNum">
+                  </a> <!-- testAbsValuePositiveNum -->
+                  <span class="method-name">testAbsValuePositiveNum</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testAbsValueZero">
+                  </a> <!-- testAbsValueZero -->
+                  <span class="method-name">testAbsValueZero</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testRaisedPowerNegativeNum">
+                  </a> <!-- testRaisedPowerNegativeNum -->
+                  <span class="method-name">testRaisedPowerNegativeNum</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testRaisedPowerNegativeNum_1">
+                  </a> <!-- testRaisedPowerNegativeNum_1 -->
+                  <span class="method-name">testRaisedPowerNegativeNum_1</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testRaisedPowerNegativeNum_2">
+                  </a> <!-- testRaisedPowerNegativeNum_2 -->
+                  <span class="method-name">testRaisedPowerNegativeNum_2</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testRaisedPowerPositiveNum">
+                  </a> <!-- testRaisedPowerPositiveNum -->
+                  <span class="method-name">testRaisedPowerPositiveNum</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testRaisedPowerZero">
+                  </a> <!-- testRaisedPowerZero -->
+                  <span class="method-name">testRaisedPowerZero</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testRaisedPowerZero_1">
+                  </a> <!-- testRaisedPowerZero_1 -->
+                  <span class="method-name">testRaisedPowerZero_1</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSignNegativeNum">
+                  </a> <!-- testSignNegativeNum -->
+                  <span class="method-name">testSignNegativeNum</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSignPositiveNum">
+                  </a> <!-- testSignPositiveNum -->
+                  <span class="method-name">testSignPositiveNum</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSignZero">
+                  </a> <!-- testSignZero -->
+                  <span class="method-name">testSignZero</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSqrtNegativeNum">
+                  </a> <!-- testSqrtNegativeNum -->
+                  <span class="method-name">testSqrtNegativeNum</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSqrtPositiveNum">
+                  </a> <!-- testSqrtPositiveNum -->
+                  <span class="method-name">testSqrtPositiveNum</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSqrtZero">
+                  </a> <!-- testSqrtZero -->
+                  <span class="method-name">testSqrtZero</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSquareNegativeNum">
+                  </a> <!-- testSquareNegativeNum -->
+                  <span class="method-name">testSquareNegativeNum</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSquarePositiveNum">
+                  </a> <!-- testSquarePositiveNum -->
+                  <span class="method-name">testSquarePositiveNum</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSquareZero">
+                  </a> <!-- testSquareZero -->
+                  <span class="method-name">testSquareZero</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.assignment02.firstproject._pass_thibichloanChung.BasicCalculatorTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testAddNegPosN">
+                  </a> <!-- testAddNegPosN -->
+                  <span class="method-name">testAddNegPosN</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testAddNegativeNbrs">
+                  </a> <!-- testAddNegativeNbrs -->
+                  <span class="method-name">testAddNegativeNbrs</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testAddPositiveNbrs">
+                  </a> <!-- testAddPositiveNbrs -->
+                  <span class="method-name">testAddPositiveNbrs</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testAddZero">
+                  </a> <!-- testAddZero -->
+                  <span class="method-name">testAddZero</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testDivNegPosN">
+                  </a> <!-- testDivNegPosN -->
+                  <span class="method-name">testDivNegPosN</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testDivNegativNbrs">
+                  </a> <!-- testDivNegativNbrs -->
+                  <span class="method-name">testDivNegativNbrs</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testDivPositiveNbrs">
+                  </a> <!-- testDivPositiveNbrs -->
+                  <span class="method-name">testDivPositiveNbrs</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testDivZero">
+                  </a> <!-- testDivZero -->
+                  <span class="method-name">testDivZero</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testMultiNegPosN">
+                  </a> <!-- testMultiNegPosN -->
+                  <span class="method-name">testMultiNegPosN</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testMultiNegativeNbrs">
+                  </a> <!-- testMultiNegativeNbrs -->
+                  <span class="method-name">testMultiNegativeNbrs</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testMultiPositiveNbrs">
+                  </a> <!-- testMultiPositiveNbrs -->
+                  <span class="method-name">testMultiPositiveNbrs</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testMultiZero">
+                  </a> <!-- testMultiZero -->
+                  <span class="method-name">testMultiZero</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSubNegPosN">
+                  </a> <!-- testSubNegPosN -->
+                  <span class="method-name">testSubNegPosN</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSubNegativeNbrs">
+                  </a> <!-- testSubNegativeNbrs -->
+                  <span class="method-name">testSubNegativeNbrs</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSubPositiveNbrs">
+                  </a> <!-- testSubPositiveNbrs -->
+                  <span class="method-name">testSubPositiveNbrs</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSubZero">
+                  </a> <!-- testSubZero -->
+                  <span class="method-name">testSubZero</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
+        </div> <!-- panel Surefire_suite -->
+        <div panel-name="test-xml-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite thread-count=&quot;1&quot; verbose=&quot;0&quot; name=&quot;Surefire suite&quot; junit=&quot;true&quot;&gt;
+  &lt;test name=&quot;Surefire test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.assignment02.firstproject._pass_thibichloanChung.AdvancedCalculatorTest&quot;/&gt;
+      &lt;class name=&quot;com.assignment02.firstproject._pass_thibichloanChung.BasicCalculatorTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Surefire test --&gt;
+&lt;/suite&gt; &lt;!-- Surefire suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Surefire suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Surefire test (2 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Surefire suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Surefire suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Surefire_suite');
+function tableData_Surefire_suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(34);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'testAddPositiveNbrs')
+data.setCell(0, 2, 'com.assignment02.firstproject._pass_thibichloanChung.BasicCalculatorTest')
+data.setCell(0, 3, 8);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'testAbsValuePositiveNum')
+data.setCell(1, 2, 'com.assignment02.firstproject._pass_thibichloanChung.AdvancedCalculatorTest')
+data.setCell(1, 3, 6);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'testSubZero')
+data.setCell(2, 2, 'com.assignment02.firstproject._pass_thibichloanChung.BasicCalculatorTest')
+data.setCell(2, 3, 3);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'testMultiNegativeNbrs')
+data.setCell(3, 2, 'com.assignment02.firstproject._pass_thibichloanChung.BasicCalculatorTest')
+data.setCell(3, 3, 1);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'testMultiZero')
+data.setCell(4, 2, 'com.assignment02.firstproject._pass_thibichloanChung.BasicCalculatorTest')
+data.setCell(4, 3, 1);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'testSubNegPosN')
+data.setCell(5, 2, 'com.assignment02.firstproject._pass_thibichloanChung.BasicCalculatorTest')
+data.setCell(5, 3, 1);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'testSquareNegativeNum')
+data.setCell(6, 2, 'com.assignment02.firstproject._pass_thibichloanChung.AdvancedCalculatorTest')
+data.setCell(6, 3, 1);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'testMultiPositiveNbrs')
+data.setCell(7, 2, 'com.assignment02.firstproject._pass_thibichloanChung.BasicCalculatorTest')
+data.setCell(7, 3, 1);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'testDivNegPosN')
+data.setCell(8, 2, 'com.assignment02.firstproject._pass_thibichloanChung.BasicCalculatorTest')
+data.setCell(8, 3, 1);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'testRaisedPowerNegativeNum_2')
+data.setCell(9, 2, 'com.assignment02.firstproject._pass_thibichloanChung.AdvancedCalculatorTest')
+data.setCell(9, 3, 1);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'testDivZero')
+data.setCell(10, 2, 'com.assignment02.firstproject._pass_thibichloanChung.BasicCalculatorTest')
+data.setCell(10, 3, 1);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'testDivPositiveNbrs')
+data.setCell(11, 2, 'com.assignment02.firstproject._pass_thibichloanChung.BasicCalculatorTest')
+data.setCell(11, 3, 0);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'testSqrtPositiveNum')
+data.setCell(12, 2, 'com.assignment02.firstproject._pass_thibichloanChung.AdvancedCalculatorTest')
+data.setCell(12, 3, 0);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'testRaisedPowerZero')
+data.setCell(13, 2, 'com.assignment02.firstproject._pass_thibichloanChung.AdvancedCalculatorTest')
+data.setCell(13, 3, 0);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'testSqrtZero')
+data.setCell(14, 2, 'com.assignment02.firstproject._pass_thibichloanChung.AdvancedCalculatorTest')
+data.setCell(14, 3, 0);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'testRaisedPowerPositiveNum')
+data.setCell(15, 2, 'com.assignment02.firstproject._pass_thibichloanChung.AdvancedCalculatorTest')
+data.setCell(15, 3, 0);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'testAddNegPosN')
+data.setCell(16, 2, 'com.assignment02.firstproject._pass_thibichloanChung.BasicCalculatorTest')
+data.setCell(16, 3, 0);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'testSignPositiveNum')
+data.setCell(17, 2, 'com.assignment02.firstproject._pass_thibichloanChung.AdvancedCalculatorTest')
+data.setCell(17, 3, 0);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'testAbsValueNegativeNum')
+data.setCell(18, 2, 'com.assignment02.firstproject._pass_thibichloanChung.AdvancedCalculatorTest')
+data.setCell(18, 3, 0);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'testSignNegativeNum')
+data.setCell(19, 2, 'com.assignment02.firstproject._pass_thibichloanChung.AdvancedCalculatorTest')
+data.setCell(19, 3, 0);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'testSquarePositiveNum')
+data.setCell(20, 2, 'com.assignment02.firstproject._pass_thibichloanChung.AdvancedCalculatorTest')
+data.setCell(20, 3, 0);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'testSignZero')
+data.setCell(21, 2, 'com.assignment02.firstproject._pass_thibichloanChung.AdvancedCalculatorTest')
+data.setCell(21, 3, 0);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'testSquareZero')
+data.setCell(22, 2, 'com.assignment02.firstproject._pass_thibichloanChung.AdvancedCalculatorTest')
+data.setCell(22, 3, 0);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'testSqrtNegativeNum')
+data.setCell(23, 2, 'com.assignment02.firstproject._pass_thibichloanChung.AdvancedCalculatorTest')
+data.setCell(23, 3, 0);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'testDivNegativNbrs')
+data.setCell(24, 2, 'com.assignment02.firstproject._pass_thibichloanChung.BasicCalculatorTest')
+data.setCell(24, 3, 0);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'testAddZero')
+data.setCell(25, 2, 'com.assignment02.firstproject._pass_thibichloanChung.BasicCalculatorTest')
+data.setCell(25, 3, 0);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'testRaisedPowerNegativeNum_1')
+data.setCell(26, 2, 'com.assignment02.firstproject._pass_thibichloanChung.AdvancedCalculatorTest')
+data.setCell(26, 3, 0);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'testRaisedPowerZero_1')
+data.setCell(27, 2, 'com.assignment02.firstproject._pass_thibichloanChung.AdvancedCalculatorTest')
+data.setCell(27, 3, 0);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'testMultiNegPosN')
+data.setCell(28, 2, 'com.assignment02.firstproject._pass_thibichloanChung.BasicCalculatorTest')
+data.setCell(28, 3, 0);
+data.setCell(29, 0, 29)
+data.setCell(29, 1, 'testAddNegativeNbrs')
+data.setCell(29, 2, 'com.assignment02.firstproject._pass_thibichloanChung.BasicCalculatorTest')
+data.setCell(29, 3, 0);
+data.setCell(30, 0, 30)
+data.setCell(30, 1, 'testRaisedPowerNegativeNum')
+data.setCell(30, 2, 'com.assignment02.firstproject._pass_thibichloanChung.AdvancedCalculatorTest')
+data.setCell(30, 3, 0);
+data.setCell(31, 0, 31)
+data.setCell(31, 1, 'testSubPositiveNbrs')
+data.setCell(31, 2, 'com.assignment02.firstproject._pass_thibichloanChung.BasicCalculatorTest')
+data.setCell(31, 3, 0);
+data.setCell(32, 0, 32)
+data.setCell(32, 1, 'testSubNegativeNbrs')
+data.setCell(32, 2, 'com.assignment02.firstproject._pass_thibichloanChung.BasicCalculatorTest')
+data.setCell(32, 3, 0);
+data.setCell(33, 0, 33)
+data.setCell(33, 1, 'testAbsValueZero')
+data.setCell(33, 2, 'com.assignment02.firstproject._pass_thibichloanChung.AdvancedCalculatorTest')
+data.setCell(33, 3, 0);
+window.suiteTableData['Surefire_suite']= { tableData: data, tableDiv: 'times-div-Surefire_suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 25 ms</span>
+              <div id="times-div-Surefire_suite">
+              </div> <!-- times-div-Surefire_suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Surefire suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.assignment02.firstproject._pass_thibichloanChung.AdvancedCalculatorTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testAbsValuePositiveNum</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testSquarePositiveNum</span>
+                <span class="method-start">10 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testRaisedPowerNegativeNum</span>
+                <span class="method-start">11 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testSignPositiveNum</span>
+                <span class="method-start">12 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testAbsValueNegativeNum</span>
+                <span class="method-start">13 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testSquareNegativeNum</span>
+                <span class="method-start">14 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testRaisedPowerZero</span>
+                <span class="method-start">15 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testSignNegativeNum</span>
+                <span class="method-start">16 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testRaisedPowerZero_1</span>
+                <span class="method-start">17 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testSqrtZero</span>
+                <span class="method-start">18 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testSqrtPositiveNum</span>
+                <span class="method-start">18 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testSqrtNegativeNum</span>
+                <span class="method-start">19 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testAbsValueZero</span>
+                <span class="method-start">20 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testRaisedPowerNegativeNum_1</span>
+                <span class="method-start">21 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testRaisedPowerNegativeNum_2</span>
+                <span class="method-start">22 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testSignZero</span>
+                <span class="method-start">24 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testSquareZero</span>
+                <span class="method-start">25 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testRaisedPowerPositiveNum</span>
+                <span class="method-start">26 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.assignment02.firstproject._pass_thibichloanChung.BasicCalculatorTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testAddNegativeNbrs</span>
+                <span class="method-start">34 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testAddZero</span>
+                <span class="method-start">35 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testAddNegPosN</span>
+                <span class="method-start">36 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testDivPositiveNbrs</span>
+                <span class="method-start">37 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testDivNegativNbrs</span>
+                <span class="method-start">38 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testDivNegPosN</span>
+                <span class="method-start">38 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testMultiZero</span>
+                <span class="method-start">39 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testSubNegPosN</span>
+                <span class="method-start">40 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testSubPositiveNbrs</span>
+                <span class="method-start">42 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testSubNegativeNbrs</span>
+                <span class="method-start">44 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testMultiPositiveNbrs</span>
+                <span class="method-start">45 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testMultiNegativeNbrs</span>
+                <span class="method-start">58 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testMultiNegPosN</span>
+                <span class="method-start">60 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testDivZero</span>
+                <span class="method-start">62 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testSubZero</span>
+                <span class="method-start">64 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testAddPositiveNbrs</span>
+                <span class="method-start">69 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>
