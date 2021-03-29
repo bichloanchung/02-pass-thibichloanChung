@@ -54,6 +54,7 @@ public class BasicCalculatorTest {
 	
 		assertEquals(bcal.subtraction(x, 0) , x , 0);	
 	}
+	
 	@Test
 	public void testSubPositiveNbrs() {
 		double x = rd.nextDouble();
@@ -134,6 +135,7 @@ public class BasicCalculatorTest {
 	
 		assertEquals(bcal.division(x, y), result, 0);	
 	}
+	
 	@Test
 	public void testDivNegativNbrs() {
 		double x = rd.nextDouble()* (-1);

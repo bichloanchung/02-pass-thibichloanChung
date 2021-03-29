@@ -146,6 +146,7 @@ public class AdvancedCalculatorTest {
 		double x = rd.nextDouble();
 		//double result = Math.signum(x);
 		//System.out.println(result);
+		
 		assertEquals(acal.getSign(x), +1.0, 0);
 	}
 	
@@ -154,6 +155,7 @@ public class AdvancedCalculatorTest {
 		double x = rd.nextDouble() * (-1);
 		//double result = Math.signum(x);
 		//System.out.println(result);
+		
 		assertEquals(acal.getSign(x), -1.0, 0);
 	}
 	
