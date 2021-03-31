@@ -14,25 +14,29 @@
 
 	public double raisedToThePowerOf(double base, double exponent) {
 <span class="fc" id="L16">		double result = Math.pow(base, exponent);</span>
-<span class="fc bfc" id="L17" title="All 2 branches covered.">		if (Double.isNaN(result)) {</span>
-<span class="fc" id="L18">			System.out.println(&quot;Do you want to raise the power values of negative number?&quot;);</span>
-<span class="fc" id="L19">			return 1e15;</span>
+		
+<span class="fc bfc" id="L18" title="All 2 branches covered.">		if (Double.isNaN(result)) {</span>
+<span class="fc" id="L19">			System.out.println(&quot;Do you want to raise the power values of negative number?&quot;);</span>
+<span class="fc" id="L20">			return 1e15;</span>
 		}
-<span class="fc" id="L21">		return result;</span>
+		
+<span class="fc" id="L23">		return result;</span>
 	}
 
 	public double squareRoot(double number) {
-<span class="fc" id="L25">		double result = Math.sqrt(number);</span>
-<span class="fc bfc" id="L26" title="All 2 branches covered.">		if (Double.isNaN(result)) {</span>
-<span class="fc" id="L27">			System.out.println(&quot;We can not get square root values of negative number!&quot;);</span>
-<span class="fc" id="L28">			return 1e20;</span>
+<span class="fc" id="L27">		double result = Math.sqrt(number);</span>
+		
+<span class="fc bfc" id="L29" title="All 2 branches covered.">		if (Double.isNaN(result)) {</span>
+<span class="fc" id="L30">			System.out.println(&quot;We can not get square root values of negative number!&quot;);</span>
+<span class="fc" id="L31">			return 1e20;</span>
 		}
-<span class="fc" id="L30">		return result;</span>
+		
+<span class="fc" id="L34">		return result;</span>
 	}
 
 	public double getSign(double number) {
-<span class="fc" id="L34">		double result = Math.signum(number);</span>
-<span class="fc" id="L35">		return result;</span>
+<span class="fc" id="L38">		double result = Math.signum(number);</span>
+<span class="fc" id="L39">		return result;</span>
 	}
 
 }
